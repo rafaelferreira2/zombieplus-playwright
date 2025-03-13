@@ -1,0 +1,82 @@
+{
+  "create": {
+    "title": "Guerra Mundial Z",
+    "overview": "Um ex-investigador da ONU percorre o mundo em uma corrida contra o tempo para deter uma pandemia mortal que transforma humanos em zumbis.",
+    "company": "Paramount Pictures",
+    "release_year": 2013,
+    "featured": false,
+    "cover": "images/world_war_z.png"
+  },
+  "madrugada_dos_mortos": {
+    "title": "Madrugada dos Mortos",
+    "overview": "Um grupo de sobreviventes se refugia em um shopping center após um apocalipse zumbi tomar conta do mundo.",
+    "company": "Universal Pictures",
+    "release_year": 2004,
+    "featured": false,
+    "cover": "images/dawn_of_the_dead.png"
+  },
+  "exterminio": {
+    "title": "Extermínio",
+    "overview": "Um homem acorda de um coma e descobre que um vírus devastador transformou a população em criaturas violentas.",
+    "company": "Fox Searchlight Pictures",
+    "release_year": 2002,
+    "featured": false,
+    "cover": "images/28_days_later.png"
+  },
+  "a_noite_dos_mortos_vivos": {
+    "title": "A Noite dos Mortos-Vivos",
+    "overview": "Um grupo de pessoas se refugia em uma casa de fazenda enquanto mortos-vivos atacam do lado de fora.",
+    "company": "Continental Distributing",
+    "release_year": 1968,
+    "featured": false,
+    "cover": "images/night_of_the_living_dead.png"
+  },
+  "resident_evil_o_hospede_maldito": {
+    "title": "Resident Evil: O Hóspede Maldito",
+    "overview": "Uma equipe de elite investiga um laboratório subterrâneo onde um vírus mortal transformou os funcionários em zumbis.",
+    "company": "Screen Gems",
+    "release_year": 2002,
+    "featured": false,
+    "cover": "images/resident_evil.png"
+  },
+  "zumbilandia": {
+    "title": "Zumbilândia",
+    "overview": "Um grupo de sobreviventes percorre os Estados Unidos enquanto enfrenta zumbis e tenta encontrar um lugar seguro.",
+    "company": "Columbia Pictures",
+    "release_year": 2009,
+    "featured": false,
+    "cover": "images/zombieland.png"
+  },
+  "re_animator": {
+    "title": "Re-Animator",
+    "overview": "Um cientista obcecado descobre um soro capaz de trazer os mortos de volta à vida, com consequências desastrosas.",
+    "company": "Empire International Pictures",
+    "release_year": 1985,
+    "featured": false,
+    "cover": "images/re_animator.png"
+  },
+  "exterminio_2": {
+    "title": "Extermínio 2",
+    "overview": "Seis meses após um surto devastador, Londres começa a ser repovoada, mas um portador infectado dá início a uma nova onda de terror.",
+    "company": "Fox Atomic",
+    "release_year": 2007,
+    "featured": false,
+    "cover": "images/28_weeks_later.png"
+  },
+  "o_exercito_dos_mortos": {
+    "title": "O Exército dos Mortos",
+    "overview": "Um grupo de mercenários planeja um assalto a um cassino em Las Vegas infestada por zumbis.",
+    "company": "Netflix",
+    "release_year": 2021,
+    "featured": false,
+    "cover": "images/army_of_the_dead.png"
+  },
+  "invasao_zumbi": {
+    "title": "Invasão Zumbi",
+    "overview": "Passageiros presos em um trem devem lutar por suas vidas quando um surto zumbi se espalha rapidamente pela Coreia do Sul.",
+    "company": "Next Entertainment World",
+    "release_year": 2016,
+    "featured": false,
+    "cover": "images/train_to_busan.png"
+  }
+}
