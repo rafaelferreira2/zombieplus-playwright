@@ -20,7 +20,7 @@ npm install
 
 2. Executar testes em Headless
 ```
-npx playwright test 
+npx playwright test
 ```
 
 3. Executar ver o relatório dos testes
