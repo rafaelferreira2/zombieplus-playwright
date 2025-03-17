@@ -1,9 +1,6 @@
 const { test } = require('../support/')
-
 const data = require('../support/fixtures/movies.json')
-
 const { executeSQL } = require('../support/database');
-const { beforeEach } = require('node:test');
 
 test.beforeEach(async ({ page }) => {
   await page.login.visit()
@@ -15,7 +12,7 @@ test('Deve poder cadastrar um novo filme', async ({ page }) => {
   const movie = data.create
   executeSQL(`DELETE from movies WHERE title = '${movie.title}';`)
 
-  await page.movies.create(movie.title, movie.overview, movie.company, movie.release_year)
+  await page.movies.create(movie)
   await page.toast.containText('Cadastro realizado com sucesso!')
 });
 
