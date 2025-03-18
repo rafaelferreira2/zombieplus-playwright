@@ -26,7 +26,7 @@ export class Login {
   }
 
   async alertlHaveText(text) {
-    const alert = this.page.locator('span[class$=-alert]')
+    const alert = this.page.locator('span[class=alert]')
     await expect(alert).toHaveText(text)
   }
 
