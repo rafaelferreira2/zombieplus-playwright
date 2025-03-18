@@ -4,16 +4,16 @@
     "overview": "Um ex-investigador da ONU percorre o mundo em uma corrida contra o tempo para deter uma pandemia mortal que transforma humanos em zumbis.",
     "company": "Paramount Pictures",
     "release_year": 2013,
-    "featured": false,
+    "featured": true,
     "cover": "/covers/movies/wwz.png"
   },
-  "madrugada_dos_mortos": {
+  "duplicate": {
     "title": "Madrugada dos Mortos",
     "overview": "Um grupo de sobreviventes se refugia em um shopping center após um apocalipse zumbi tomar conta do mundo.",
     "company": "Universal Pictures",
     "release_year": 2004,
     "featured": false,
-    "cover": "images/dawn_of_the_dead.png"
+    "cover": "/covers/movies/resident-evil.jpg"
   },
   "exterminio": {
     "title": "Extermínio",

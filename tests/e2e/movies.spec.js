@@ -2,6 +2,10 @@ const { test } = require('../support/')
 const data = require('../support/fixtures/movies.json')
 const { executeSQL } = require('../support/database');
 
+test.beforeAll(async () => {
+  await executeSQL(`DELETE from movies;`)
+});
+
 test.beforeEach(async ({ page }) => {
   await page.login.visit()
   await page.login.submit('admin@zombieplus.com', 'pwd123')
@@ -10,10 +14,19 @@ test.beforeEach(async ({ page }) => {
 
 test('Deve poder cadastrar um novo filme', async ({ page }) => {
   const movie = data.create
-  executeSQL(`DELETE from movies WHERE title = '${movie.title}';`)
 
   await page.movies.create(movie)
   await page.toast.containText('Cadastro realizado com sucesso!')
+});
+
+test('Não deve cadastrar quando o título é duplicado', async ({ page }) => {
+  const movie = data.duplicate
+
+  await page.movies.create(movie)
+  await page.toast.containText('Cadastro realizado com sucesso!')
+
+  await page.movies.create(movie)
+  await page.toast.containText('Este conteúdo já encontra-se cadastrado no catálogo')
 });
 
 test('Não deve cadastrar quando os campos obrigatórios não são preenchidos', async ({ page }) => {
