@@ -17,6 +17,19 @@ test('Deve poder cadastrar um novo filme', async ({ page }) => {
   await page.popup.haveText(`O filme '${movie.title}' foi adicionado ao catálogo.`)
 });
 
+test('Deve poder remover um novo filme', async ({ page, request }) => {
+  const movie = data.to_remove
+
+  await request.api.postMovie(movie)
+
+  await page.goto('/admin/movies')
+  await page.login.isLoggedIn('Admin')
+
+  await page.movies.remove(movie.title)
+
+  await page.popup.haveText('Filme removido com sucesso.')
+});
+
 test('Não deve cadastrar quando o título é duplicado', async ({ page, request }) => {
   const movie = data.duplicate
 

@@ -7,29 +7,13 @@
     "featured": true,
     "cover": "/covers/movies/wwz.png"
   },
-  "madrigada_dos_motos": {
-    "title": "Madrugada dos Mortos",
-    "overview": "Um grupo de sobreviventes se refugia em um shopping center após um apocalipse zumbi tomar conta do mundo.",
-    "company": "Universal Pictures",
-    "release_year": 2004,
-    "featured": false,
-    "cover": "/covers/movies/resident-evil.jpg"
-  },
-  "exterminio": {
-    "title": "Extermínio",
-    "overview": "Um homem acorda de um coma e descobre que um vírus devastador transformou a população em criaturas violentas.",
-    "company": "Fox Searchlight Pictures",
-    "release_year": 2002,
-    "featured": false,
-    "cover": "images/28_days_later.png"
-  },
-  "a_noite_dos_mortos_vivos": {
+  "to_remove": {
     "title": "A Noite dos Mortos-Vivos",
     "overview": "Um grupo de pessoas se refugia em uma casa de fazenda enquanto mortos-vivos atacam do lado de fora.",
-    "company": "Continental Distributing",
+    "company": "Sony Pictures",
     "release_year": 1968,
     "featured": false,
-    "cover": "images/night_of_the_living_dead.png"
+    "cover": "/covers/movies/mortos-vivos.jpg"
   },
   "duplicate": {
     "title": "Resident Evil: O Hóspede Maldito",
@@ -38,6 +22,22 @@
     "release_year": 2002,
     "featured": false,
     "cover": "/covers/movies/resident-evil.jpg"
+  },
+  "madrugada_dos_motos": {
+    "title": "Madrugada dos Mortos",
+    "overview": "Um grupo de sobreviventes se refugia em um shopping center após um apocalipse zumbi tomar conta do mundo.",
+    "company": "Universal Pictures",
+    "release_year": 2004,
+    "featured": false,
+    "cover": "/covers/movies/madrugada.jpg"
+  },
+  "exterminio": {
+    "title": "Extermínio",
+    "overview": "Um homem acorda de um coma e descobre que um vírus devastador transformou a população em criaturas violentas.",
+    "company": "Fox Searchlight Pictures",
+    "release_year": 2002,
+    "featured": false,
+    "cover": "images/28_days_later.png"
   },
   "zumbilandia": {
     "title": "Zumbilândia",
