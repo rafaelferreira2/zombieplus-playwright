@@ -6,6 +6,12 @@ export class Login {
     this.page = page
   }
 
+  async do(email, password, username) {
+    await this.visit()
+    await this.submit(email, password)
+    await this.isLoggedIn(username)
+  }
+
   async visit() {
     await this.page.goto('/admin/login')
 

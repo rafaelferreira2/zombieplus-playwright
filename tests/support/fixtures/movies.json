@@ -7,7 +7,7 @@
     "featured": true,
     "cover": "/covers/movies/wwz.png"
   },
-  "duplicate": {
+  "madrigada_dos_motos": {
     "title": "Madrugada dos Mortos",
     "overview": "Um grupo de sobreviventes se refugia em um shopping center após um apocalipse zumbi tomar conta do mundo.",
     "company": "Universal Pictures",
@@ -31,13 +31,13 @@
     "featured": false,
     "cover": "images/night_of_the_living_dead.png"
   },
-  "resident_evil_o_hospede_maldito": {
+  "duplicate": {
     "title": "Resident Evil: O Hóspede Maldito",
     "overview": "Uma equipe de elite investiga um laboratório subterrâneo onde um vírus mortal transformou os funcionários em zumbis.",
-    "company": "Screen Gems",
+    "company": "Universal Pictures",
     "release_year": 2002,
     "featured": false,
-    "cover": "images/resident_evil.png"
+    "cover": "/covers/movies/resident-evil.jpg"
   },
   "zumbilandia": {
     "title": "Zumbilândia",
